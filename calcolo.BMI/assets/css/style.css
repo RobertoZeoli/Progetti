@@ -1,0 +1,38 @@
+body{
+    background-image: url('/calcolo.BMI/assets/img/sfondo2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+form{
+      margin: 50px auto;
+    border: 2px solid black;
+    color: black;
+    border-radius: 10px;
+}
+
+h1{
+    text-align: center;
+}
+
+input, select{
+    margin-bottom: 10px;
+}
+
+#btncalcola{
+    background-color: transparent;
+    border: 1px solid black;
+    color: black;
+    border-radius: 10px;
+}
+
+#btncalcola:hover{
+    background-color: black;
+    color: white;
+}
+
+/* CARD RISULTATO */
+
+#cardResult{
+    color: black;
+}
