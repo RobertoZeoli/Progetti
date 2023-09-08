@@ -1,0 +1,38 @@
+<nav class="navbar navbar-expand-lg fixed-top">
+  <div class="container-fluid d-flex justify-content-between">
+
+    <div>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" [routerLink]="['panini']" routerLinkActive="active">PANINI</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" [routerLink]="['bibite']" routerLinkActive="active">BIBITE</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" [routerLink]="['dolci']" routerLinkActive="active">DOLCI</a>
+          </li>
+        </ul>
+      </div>
+
+    </div>
+
+    <!-- Non riesco a farlo diventare link e tenerlo in linea nella navbar -->
+
+    <img src="/assets/img/Mc Food.png" alt="">
+
+
+
+    <a class="navbar-brand p-0 d-flex align-items-center" [routerLink]="['carrello']" routerLinkActive="active"
+      [routerLinkActiveOptions]="{exact:true}"><span class="material-symbols-outlined carrello p-2">
+        shopping_cart
+      </span>
+      <!-- <img src="/assets/img/Mc Food.png" alt=""> --></a>
+
+  </div>
+</nav>

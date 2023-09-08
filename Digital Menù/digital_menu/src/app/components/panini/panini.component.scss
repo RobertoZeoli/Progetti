@@ -1,0 +1,31 @@
+#container {
+  margin-top: 80px;
+
+  .card {
+    background-color: transparent;
+    color: white;
+    border-bottom: 1px solid #F9B209;
+    border-radius: 0;
+    margin-top: 2%;
+
+    img {
+      width: 95%;
+    }
+  }
+
+  div {
+    button {
+      width: 100%;
+      background-color: #eba70a;
+      border: none;
+    }
+
+    button:hover {
+      background-color: #F9B209;
+    }
+  }
+
+  #prezzo {
+    font-size: 2em;
+  }
+}

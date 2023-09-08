@@ -1,0 +1,22 @@
+<div id="container">
+
+  <div class="card mb-3" *ngFor="let bibita of bibite">
+    <div class="row g-0">
+      <div class="col-md-4 d-flex justify-content-center">
+        <img src="{{bibita.image}}" class="img-fluid rounded-start" alt="bibita">
+      </div>
+      <div class="col-md-8">
+        <div class="card-body">
+          <h3 class="card-title">{{bibita.name}}</h3>
+          <div class="d-flex justify-content-end">
+            <p id="prezzo" class="m-2">{{bibita.price.toFixed(2)}} €</p>
+          </div>
+          <div>
+            <button (click)="aggiungiOrdine(bibita)" type="submit" class="aggiungi">AGGIUNGI ALL'ORDINE</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>

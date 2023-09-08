@@ -1,0 +1,25 @@
+<div id="container">
+
+  <div class="card mb-3" *ngFor="let panino of panini">
+    <div class="row g-0">
+      <div class="col-md-4 d-flex justify-content-center">
+        <img src="{{panino.image}}" class="img-fluid rounded-start" alt="panino">
+      </div>
+      <div class="col-md-8">
+        <div class="card-body">
+          <h3 class="card-title">{{panino.name}}</h3>
+          <p class="card-text m-0">{{panino.desc}}</p>
+          <div class="d-flex justify-content-end">
+            <p id="prezzo" class="m-2">{{panino.price.toFixed(2)}} €</p>
+          </div>
+          <div>
+            <button (click)="aggiungiOrdine(panino)" type="submit" class="aggiungi">AGGIUNGI ALL'ORDINE</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<!-- (click)="aggiungi(panino)" -->

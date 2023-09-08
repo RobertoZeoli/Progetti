@@ -1,0 +1,242 @@
+{
+  "ordine": [
+    {
+      "image": "https://dolciariaacquaviva.com/wp-content/uploads/2019/09/GC0021S.jpg",
+      "name": "Cornetto Crema",
+      "price": 1.2,
+      "id": 12
+    },
+    {
+      "image": "https://img.stmenu.it/thumbs/selforder/immagine/large/23149.jpeg.jpg",
+      "name": "Acqua Naturale",
+      "price": 1.2,
+      "id": 13
+    },
+    {
+      "image": "https://s7d1.scene7.com/is/image/mcdonalds/t-mcdonalds-Bacon-Egg-Cheese-Biscuit-Regular-Size-Biscuit-1:product-header-desktop?wid=829&hei=455&dpr=off",
+      "name": "Bacon,Egg & Cheese Biscuit",
+      "desc": "Biscotto caldo al latticello spennellato con vero burro, pancetta affumicata Applewood tagliata spessa, un soffice uovo ripiegato e una fetta di formaggio americano fuso. Il Bacon, Egg & Cheese Biscuit di McDonald's contiene 460 calorie. ",
+      "price": 3.23,
+      "id": 14
+    }
+  ],
+  "panini": [
+    {
+      "id": 1,
+      "name": "Bacon,Egg & Cheese Biscuit",
+      "image": "https://s7d1.scene7.com/is/image/mcdonalds/t-mcdonalds-Bacon-Egg-Cheese-Biscuit-Regular-Size-Biscuit-1:product-header-desktop?wid=829&hei=455&dpr=off",
+      "desc": "Biscotto caldo al latticello spennellato con vero burro, pancetta affumicata Applewood tagliata spessa, un soffice uovo ripiegato e una fetta di formaggio americano fuso. Il Bacon, Egg & Cheese Biscuit di McDonald's contiene 460 calorie. ",
+      "price": 3.23
+    },
+    {
+      "id": 2,
+      "name": "Egg McMuffin",
+      "image": "https://s7d1.scene7.com/is/image/mcdonalds/t-mcdonalds-Egg-McMuffin-1:product-header-mobile?wid=768&hei=443&dpr=off",
+      "desc": "Il nostro panino per la colazione Egg McMuffin® è un'eccellente fonte di proteine ed è delizioso. Mettiamo un uovo fresco di grado A su un English Muffin tostato e condito con vero burro, aggiungiamo pancetta canadese magra e formaggio americano fuso. Un Egg McMuffin® contiene 310 calorie.",
+      "price": 5
+    },
+    {
+      "id": 3,
+      "name": "Sausage McMuffin",
+      "image": "https://s7d1.scene7.com/is/image/mcdonalds/t-mcdonalds-Sausage-McMuffin:product-header-mobile?wid=768&hei=441&dpr=off",
+      "desc": "Muffin inglese caldo e appena tostato, sormontato da una saporita salsiccia calda e da una fetta di formaggio americano fuso. Un Sausage McMuffin® contiene 400 calorie. ",
+      "price": 12
+    },
+    {
+      "id": 4,
+      "name": "Sausage McMuffin® with Egg",
+      "image": "https://s7d1.scene7.com/is/image/mcdonalds/t-mcdonalds-Sausage-McMuffin-with-Egg:product-header-mobile?wid=768&hei=443&dpr=off",
+      "desc": "Salsiccia calda, una fetta di formaggio americano fuso e un delizioso uovo appena rotto, il tutto su un muffin inglese appena tostato. Il Sausage McMuffin® con uovo di McDonald's contiene 480 calorie.",
+      "price": 5.6
+    },
+    {
+      "id": 5,
+      "name": "Sausage Biscuit",
+      "image": "https://s7d1.scene7.com/is/image/mcdonalds/t-mcdonalds-Sausage-Biscuit-Regular-Size-Biscuit-1:product-header-mobile?wid=768&hei=443&dpr=off",
+      "desc": "Il panino perfetto per la colazione a base di salsicce calde e sfrigolanti su un biscotto caldo al latticello, condito con vero burro e cotto alla perfezione. Un biscotto con salsiccia di McDonald's contiene 460 calorie.",
+      "price": 12
+    },
+    {
+      "id": 4,
+      "name": "Sausage Biscuit with Egg",
+      "image": "https://s7d1.scene7.com/is/image/mcdonalds/t-mcdonalds-Sausage-Biscuit-with-Egg-Regular-Size-Biscuit-1:product-header-mobile?wid=768&hei=441&dpr=off",
+      "desc": "Biscotto caldo e croccante, spennellato con vero burro, da una salsiccia di maiale calda e da un classico uovo ripiegato. È il panino salato perfetto per una colazione facile e veloce.",
+      "price": 4.6
+    },
+    {
+      "id": 7,
+      "name": "Bacon, Egg & Cheese McGriddles®",
+      "image": "https://s7d1.scene7.com/is/image/mcdonalds/t-mcdonalds-Sausage-Egg-Cheese-McGriddles:product-header-mobile?wid=768&hei=441&dpr=off",
+      "desc": "Salsiccia, uovo e formaggio sono morbidi e caldi panetti da grigliare, con il dolce sapore dell'acero, che racchiudono un soffice uovo ripiegato, una saporita salsiccia e un formaggio americano fuso. Contiene 550 calorie.",
+      "price": 12
+    },
+    {
+      "id": 8,
+      "name": "Crispy Chicken Sandwich",
+      "image": "https://s7d1.scene7.com/is/image/mcdonalds/t-mcdonalds-crispy-chicken-sandwich:product-header-mobile?wid=768&hei=443&dpr=off",
+      "desc": "Sandwich di pollo fritto in stile meridionale, croccante, succoso e tenero alla perfezione. È condito con sottaceti tagliati a strisce e servito su un panino di patate tostato e imburrato. Il Crispy Chicken sandwich ha 470 calorie.",
+      "price": 8
+    },
+    {
+      "id": 9,
+      "name": "Deluxe Crispy Chicken Sandwich",
+      "image": "https://s7d1.scene7.com/is/image/mcdonalds/t-mcdonalds-deluxe-crispy-chicken-sandwich:product-header-mobile?wid=768&hei=443&dpr=off",
+      "desc": "Il Deluxe è caratterizzato da lattuga tagliuzzata, pomodori Roma e maionese, per portare la croccantezza, la succosità e la tenerezza a un livello superiore. Il panino Deluxe con pollo croccante ha 530 calorie.",
+      "price": 10
+    },
+    {
+      "id": 10,
+      "name": "Spicy Crispy Chicken Sandwich",
+      "image": "https://s7d1.scene7.com/is/image/mcdonalds/t-mcdonalds-spicy-crispy-chicken-sandwich:product-header-mobile?product-header-desktop&wid=768&hei=443&dpr=off",
+      "desc": "Salsa al pepe piccante a guarnire il filetto di pollo fritto in stile meridionale su un panino di patate tostato, questo panino è stato creato per chi ama il pollo croccante, succoso, tenero e piccante. Il panino con pollo piccante ha 530 calorie.",
+      "price": 9.6
+    },
+    {
+      "id": 11,
+      "name": "Spicy Deluxe Crispy Chicken Sandwich",
+      "image": "https://s7d1.scene7.com/is/image/mcdonalds/t-mcdonalds-spicy-deluxe-crispy-chicken-sandwich:product-header-mobile?wid=768&hei=441&dpr=off",
+      "desc": "Il pollo croccante Spicy Deluxe è un piatto forte, anche dal punto di vista del calore. Il nostro filetto di pollo fritto in stile meridionale su un panino di patate, condito con lattuga tagliuzzata, pomodori rom e salsa al pepe piccante, è croccante, succoso e tenero al massimo livello. Il panino Spicy Deluxe Crispy Chicken ha 540 calorie.",
+      "price": 15
+    },
+    {
+      "id": 12,
+      "name": "Filet-O-Fish®",
+      "image": "https://s7d1.scene7.com/is/image/mcdonalds/t-mcdonalds-Filet-O-Fish-1:product-header-mobile?wid=768&hei=443&dpr=off",
+      "desc": "Tuffati nel nostro Filet-O-Fish® pescato in natura! Questo sandwich contiene pesce proveniente da attività di pesca gestite in modo sostenibile, formaggio americano fuso e salsa tartara, il tutto servito su un morbido panino al vapore. Il Filet-O-Fish contiene 390 calorie.",
+      "price": 7
+    },
+    {
+      "id": 13,
+      "name": "McChicken®",
+      "image": "https://s7d1.scene7.com/is/image/mcdonalds/t-mcdonalds-McChicken-1:product-header-mobile?wid=768&hei=443&dpr=off",
+      "desc": "È un classico per un motivo. Assaporate la croccantezza della nostra succosa polpetta di pollo, condita con lattuga tagliuzzata e la giusta quantità di maionese cremosa, il tutto servito su un panino perfettamente tostato.* Il McChicken® ha 400 calorie.",
+      "price": 8
+    },
+    {
+      "id": 14,
+      "name": "Big Mac®",
+      "image": "https://s7d1.scene7.com/is/image/mcdonalds/t-mcdonalds-Big-Mac-1:product-header-mobile?wid=768&hei=441&dpr=off",
+      "desc": "Hamburger di manzo al 100% con un gusto unico. L'appetitosa perfezione inizia con due polpette di manzo puro al 100% e la salsa Big Mac® inserite in un panino con semi di sesamo. Il tutto è completato da sottaceti, lattuga croccante, cipolla tritata e una fetta di formaggio americano. Un Big Mac® contiene 550 calorie.",
+      "price": 10.45
+    },
+    {
+      "id": 15,
+      "name": "Quarter Pounder®* with Cheese",
+      "image": "https://s7d1.scene7.com/is/image/mcdonalds/t-mcdonalds-Quarter-Pounder-with-Cheese-1:product-header-mobile?wid=768&hei=443&dpr=off",
+      "desc": "¼ lb.* di manzo fresco al 100%, caldo, deliziosamente succoso e cotto al momento dell'ordine. È condito con un pizzico di sale e pepe, sfrigola su una griglia di ferro piatto, quindi è condito con cipolle tagliate a rondelle, sottaceti piccanti e due fette di formaggio americano fuso su un panino con semi di sesamo. Un Quarter Pounder® con formaggio ha 520 calorie. ",
+      "price": 6
+    }
+  ],
+  "bibite": [
+    {
+      "id": 1,
+      "image": "https://img.stmenu.it/thumbs/selforder/immagine/large/23149.jpeg.jpg",
+      "name": "Acqua Naturale",
+      "price": 1.2
+    },
+    {
+      "id": 2,
+      "image": "https://img.stmenu.it/thumbs/selforder/immagine/large/23136.jpeg.jpg",
+      "name": "Acqua Frizzante",
+      "price": 1.2
+    },
+    {
+      "id": 3,
+      "image": "https://www.bereacasa.it/wp-content/uploads/2017/12/Coca-cola-zero-15-litro-1.jpg",
+      "name": "Coca-Cola Zero",
+      "price": 3
+    },
+    {
+      "id": 4,
+      "image": "https://puntorigenera.com/8845205-thickbox_default/cocacolapetbottigliada450ml.jpg",
+      "name": "Coca-Cola",
+      "price": 3
+    },
+    {
+      "id": 5,
+      "image": "https://www.altogustofiano.it/public/_resized/fanta_bottiglia_cl.50_1200x1200_542X542_90.jpg",
+      "name": "Fanta",
+      "price": 3
+    },
+    {
+      "id": 6,
+      "image": "https://gecoshop.com/5327-large_default/birra-peroni-cartone-da-24-bottiglie-da-33-cl.jpg",
+      "name": "Birra",
+      "price": 4
+    },
+    {
+      "id": 7,
+      "image": "https://www.barangolodellosport.it/wp-content/uploads/2020/05/succo-yoga-pesca-200ml-600x600-1.jpg",
+      "name": "Succo Di Frutta",
+      "price": 2.5
+    }
+  ],
+  "dolci": [
+    {
+      "id": 1,
+      "image": "https://dolciariaacquaviva.com/wp-content/uploads/2019/09/CO0023.jpg",
+      "name": "Cornetto Vuoto",
+      "price": 1
+    },
+    {
+      "id": 2,
+      "image": "https://www.lasicilianadal1956.it/wp-content/uploads/2021/07/cornettonutella-scaled.jpg",
+      "name": "Cornetto Nutella",
+      "price": 1.2
+    },
+    {
+      "id": 3,
+      "image": "https://dolciariaacquaviva.com/wp-content/uploads/2019/09/GC0021S.jpg",
+      "name": "Cornetto Crema",
+      "price": 1.2
+    },
+    {
+      "id": 4,
+      "image": "https://www.pol-gel.it/wp-content/uploads/2020/04/55.png",
+      "name": "Cornetto Marmellata",
+      "price": 1.2
+    },
+    {
+      "id": 5,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcTwPzk6BBK2qRo3ypHiAEjdUJHVu_PnOncQ&usqp=CAU",
+      "name": "Donut Cioccolato",
+      "price": 1.5
+    },
+    {
+      "id": 6,
+      "image": "https://dolciariaacquaviva.com/wp-content/uploads/2019/09/DO0004.jpg",
+      "name": "Donut Fragola",
+      "price": 1.5
+    },
+    {
+      "id": 7,
+      "image": "https://dolciariaacquaviva.com/wp-content/uploads/2019/09/DO0005.jpg",
+      "name": "Donut Crema",
+      "price": 1.5
+    },
+    {
+      "id": 8,
+      "image": "https://www.giovanigenitori.it/wp-content/uploads/2019/04/pancake-classici.jpg",
+      "name": "Pancake",
+      "price": 2.5
+    },
+    {
+      "id": 9,
+      "image": "https://images.fidhouse.com/fidelitynews/wp-content/uploads/sites/6/2017/04/1491992185_3eb0bcf8984dbeb557a7503ba6fd043cb54b9d73-211643806.jpg?width=1280&height=720&quality=80",
+      "name": "Muffin",
+      "price": 2
+    },
+    {
+      "id": 10,
+      "image": "https://www.jocooks.com/wp-content/uploads/2018/11/cheesecake-1-22.jpg",
+      "name": "Cheesecake",
+      "price": 4.5
+    },
+    {
+      "id": 11,
+      "image": "https://ricetta.it/Uploads/Imgs/tiramisu-classico.jpg",
+      "name": "Tiramisù",
+      "price": 4.5
+    }
+  ]
+}
