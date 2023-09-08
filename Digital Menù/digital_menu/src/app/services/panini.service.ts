@@ -35,7 +35,7 @@ export class PaniniService {
     return this.http.get<Panino[] | Bevanda[] | Dolce[]>(`${this.baseUrl}ordine`)
   }
 
-  /* cancellaOrdine(ordinato: Ordinato) {
-    return this.http.delete(`${this.baseUrl}ordine`, ordinato)
-  } */
+  cancellaOrdine(ordinatoId: number | undefined) {
+    return this.http.delete<Ordinato>(`${this.baseUrl}ordine/${ordinatoId}`)
+  }
 }

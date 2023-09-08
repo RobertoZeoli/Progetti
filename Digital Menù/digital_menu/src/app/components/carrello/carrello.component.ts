@@ -15,6 +15,7 @@ import { environment } from 'src/environments/environment';
 export class CarrelloComponent implements OnInit {
 
   carrello!: any;
+  eliminato!: Ordinato;
 
   constructor(private paniniSrv: PaniniService, private http: HttpClient) { }
 
@@ -29,11 +30,22 @@ export class CarrelloComponent implements OnInit {
     })
   }
 
+  eliminaOrdine(ordinato: Ordinato) {
+    const idOrdine: number | undefined = ordinato.id;
+    if (idOrdine !== undefined) {
+      this.paniniSrv.cancellaOrdine(idOrdine).subscribe((item) =>
+        this.eliminato = item
+
+      )
+      location.reload();
+    }
+  }
+
   calcolaTotale() {
     return this.carrello.reduce((acc: any, oggetto: { price: any; }) => acc + oggetto.price, 0)
   }
 
   confermaOrdine() {
-    alert('Ordine inviato! Buon appetito! 😊')
+    prompt('Ordine inviato con successo! Inserisci qui il numero del tuo tavolo:');
   }
 }
