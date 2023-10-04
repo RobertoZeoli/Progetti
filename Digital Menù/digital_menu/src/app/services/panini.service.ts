@@ -38,4 +38,9 @@ export class PaniniService {
   cancellaOrdine(ordinatoId: number | undefined) {
     return this.http.delete<Ordinato>(`${this.baseUrl}ordine/${ordinatoId}`)
   }
+
+  /* svuotaCarrello() {
+    return this.http.delete(`${this.baseUrl}ordine`);
+  } */
+
 }

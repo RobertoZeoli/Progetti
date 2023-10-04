@@ -1,0 +1,54 @@
+:host {
+  width: 100%;
+}
+
+#container {
+
+  height: 100vh;
+  background-color: #0A0A0A;
+
+  #logo {
+    height: 30%;
+    background-image: url('/assets/img/IMG_20230930_221737.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 10px;
+  }
+
+  #lista {
+    background-color: transparent;
+    height: 50%;
+
+    ul {
+      list-style-type: none;
+
+      li {
+        margin: 10px 0;
+
+        a {
+          text-decoration: none;
+
+          button {
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #A67362;
+            color: black;
+
+            &:hover {
+              filter: brightness(1.2);
+            }
+
+            span {
+              font-size: 2em;
+            }
+          }
+        }
+      }
+    }
+  }
+
+
+}

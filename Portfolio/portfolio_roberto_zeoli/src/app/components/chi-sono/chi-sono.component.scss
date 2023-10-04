@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Young+Serif&display=swap');
+
+.container {
+  width: 100%;
+  height: 100%;
+  font-family: 'Architects Daughter', cursive;
+  font-family: 'Young Serif', serif;
+}
+
+#card1 {
+  p {
+    color: white;
+
+  }
+}
+
+#card2 {
+  background-image: url('/assets/img/profilo1.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  cursor: pointer;
+
+
+  /* img {
+
+    width: 100%;
+    height: 100%;
+    padding: 20%;
+  } */
+}
+
+#card2:hover {
+  background-image: url('/assets/img/profilo2.png');
+}

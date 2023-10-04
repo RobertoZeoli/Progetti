@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Young+Serif&display=swap');
+
+
+.container {
+  margin-top: 12%;
+  font-family: 'Architects Daughter', cursive;
+  font-family: 'Young Serif', serif;
+}
+
+.card {
+  background-color: black;
+  color: #A67362;
+  transition: transform 0.4s;
+
+  img {
+    height: 32%;
+  }
+
+  p {
+    font-size: 0.8em;
+    padding: 5% 0;
+  }
+
+  a {
+    background-color: #A67362;
+    color: black;
+    /* box-shadow: -1px 1px 3px #A67362; */
+
+  }
+
+  a:hover {
+    filter: brightness(1.2);
+    color: black;
+  }
+}
+
+.card:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
