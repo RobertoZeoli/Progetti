@@ -1,0 +1,48 @@
+<nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid">
+
+    <div id="logo">
+      <img class="p-2" src="/assets/img/traspBlack.png" alt="">
+    </div>
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" [routerLink]="['home']" routerLinkActive="active">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" [routerLink]="['chiSiamo']" routerLinkActive="active">Chi Siamo</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Servizi
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" [routerLink]="['parchiEgiardini']"
+                routerLinkActive="active">Parchi&Giardini</a></li>
+            <li><a class="dropdown-item" [routerLink]="['wood']" routerLinkActive="active">Wood</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" [routerLink]="['lavori']" routerLinkActive="active">Lavori</a>
+        </li>
+      </ul>
+
+      <div id="btnContact" class="d-flex justify-content-between align-items-center">
+        <div class="me-3">
+          <a class="border-0" href="http://wa.me//+393458134252?text=Buongiorno%20vorrei%20informazioni%20sui%20vostri%20servizi!" target="_blank">
+            <img src="/assets/img/whatsapp.png" alt="icona whatsapp">
+          </a>
+
+        </div>
+        <a class="p-2" [routerLink]="['contatti']" routerLinkActive="active">CONTATTACI</a>
+      </div>
+
+    </div>
+  </div>
+</nav>

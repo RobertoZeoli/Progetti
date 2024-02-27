@@ -1,0 +1,71 @@
+/* PRIMA PALETTE */
+$verdechiaro: #606c38;
+$verdescuro: #283618;
+$panna: #FEFAE0;
+$marronechiaro: #DDA15E;
+$marronescuro: #a75814;
+
+/* SECONDA PALETTE */
+$verdechiaroleggero: #e9edc9;
+$verdescuroleggero: #ccd5ae;
+$pannaleggero: #fefae0;
+$marronechiaroleggero: #faedcd;
+$marronescuroleggero: #d4a373;
+
+.navbar {
+  background-color: white;
+  height: 12vh;
+
+  a {
+    color: black;
+  }
+
+
+  #logo {
+    width: 15%;
+    height: 100%;
+
+    img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+
+  .navbar-collapse {
+    background-color: white;
+    color: $panna;
+    padding: 15px;
+  }
+
+ .dropdown-menu{
+  background-color: white;
+ }
+
+  .dropdown-item:hover {
+    background-color: $verdechiaro;
+  }
+
+  #btnContact {
+    div{
+      img{
+        width: 35px;
+        height: 35px;
+      }
+
+      img:hover{
+        transform: scale(1.2);
+      }
+    }
+
+    a {
+      text-decoration: none;
+      color: black;
+      border-radius: 10px;
+      border: 1px solid black;
+    }
+
+    a:hover {
+      background-color: $verdechiaro;
+    }
+  }
+}

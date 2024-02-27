@@ -73,9 +73,8 @@ const route: Route[] = [
     path: 'spotify',
     component: SpotifyComponent,
   },
-
   {
-    path: 'error404',
+    path: '**',
     component: Error404Component,
   }
 ]

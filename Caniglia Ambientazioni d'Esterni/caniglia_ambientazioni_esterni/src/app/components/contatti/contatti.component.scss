@@ -1,0 +1,41 @@
+$verdechiaro: #606C38;
+$verdescuro: #283618;
+$panna: #FEFAE0;
+$marronechiaro: #DDA15E;
+$marronescuro: #BC6C25;
+
+.container{
+  margin-top: 100px;
+}
+form {
+  border: 1px solid $marronescuro;
+  box-shadow: 0px 0px 8px $verdescuro;
+  border-radius: 15px;
+  margin: 30px auto;
+  background-color: #606c3849;
+}
+
+input,textarea{
+  border: none;
+}
+
+span{
+  font-size: 0.9em;
+}
+
+button{
+  background-color: $verdechiaro;
+  color: $panna;
+  border: none;
+  border-radius: 10px;
+  width: 6em;
+  transition: filter 0.5s ease;
+}
+button:hover{
+  filter: brightness(1.5);
+}
+
+h1,label{
+  color: $verdescuro;
+}
+

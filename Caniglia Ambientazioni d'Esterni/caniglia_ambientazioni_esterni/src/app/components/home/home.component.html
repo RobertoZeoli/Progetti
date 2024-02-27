@@ -1,0 +1,109 @@
+<div id="container" class="container-fluid p-0 d-flex flex-column align-items-center">
+
+  <!-- HERO -->
+  <div class="row mb-5">
+    <div class="col-12 p-0" id="hero" [ngStyle]="{'background-image':'url('+heroBackground[currentHero]+')'}">
+      <div id="heroOmbra" class="d-flex">
+        <div id="heroLeft" class="d-flex flex-column justify-content-center ps-4">
+          <h1>Vivi verde, ama la Terra.</h1>
+          <a [routerLink]="['/lavori']" routerLinkActive="active" class="p-1">Scopri</a>
+        </div>
+        <div id="heroRight"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- PRESENTAZIONE -->
+  <div id="presentazione" class="row mb-5">
+    <div class="col-12 col-xl-6 d-flex justify-content-center">
+      <img class="p-4" src="/assets/img/11229284_10206010662278539_4072688836421368813_n.jpg" alt="">
+    </div>
+    <div class="col-12 col-xl-6 d-flex flex-column justify-content-between p-4">
+      <h2 class="text-center">Un po' di noi</h2>
+      <div class="p-3">
+        <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est natus fugit
+          autem similique libero.
+          Facilis,
+          quia qui. Velit ex harum perspiciatis quo laborum est saepe dolor vero, recusandae odio excepturi? Lorem ipsum
+          dolor sit amet consectetur adipisicing elit. Dolor a voluptatem autem quibusdam id ab harum eos nobis nihil,
+          minus sunt? Possimus vel aut inventore quia beatae sint quos hic.
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est natus fugit autem similique libero. Facilis,
+          quia qui. Velit ex harum perspiciatis quo laborum est saepe dolor vero, recusandae odio excepturi? Lorem ipsum
+          dolor sit amet consectetur adipisicing elit. Dolor a voluptatem autem quibusdam id ab harum eos nobis nihil,
+          minus sunt? Possimus vel aut inventore quia beatae sint quos hic.
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est natus fugit autem similique libero. Facilis,
+          quia qui. Velit ex harum perspiciatis quo laborum est saepe dolor vero, recusandae odio excepturi? Lorem ipsum
+          dolor sit amet consectetur adipisicing elit. Dolor a voluptatem autem quibusdam id ab harum eos nobis nihil,
+          minus sunt? Possimus vel aut inventore quia beatae sint quos hic.</p>
+
+        <div class="d-flex justify-content-end mt-4 me-3">
+          <button type="button" class="btn btn-outline-success">
+            <a [routerLink]="['/chiSiamo']" [routerLinkActive]="['active']">Scopri di più</a>
+          </button>
+        </div>
+
+      </div>
+
+
+    </div>
+  </div>
+
+  <!-- SERVIZI -->
+  <div id="servizi" class="mb-5">
+
+    <div class="text-center text-sm-center ms-3 ms-sm-0 mb-5">
+      <h2>SERVIZI</h2>
+    </div>
+
+    <div class="row">
+
+      <div class="servizio p-2 p-xl-3 col-12 col-md-4 d-flex flex-column align-items-center">
+        <div class="mb-4 left-item p-1 d-flex justify-content-center align-items-center">
+          <span class="fs-1 material-symbols-outlined">
+            psychiatry
+          </span>
+        </div>
+        <div class="right-item text-center">
+          <h4>Realizzazione giardini</h4>
+          <hr>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+        </div>
+      </div>
+
+      <div class="servizio p-2 p-xl-3 col-12 col-md-4 d-flex flex-column align-items-center">
+        <div class="mb-4 left-item p-1 d-flex justify-content-center align-items-center">
+          <span class="fs-1 material-symbols-outlined">
+            forest
+          </span>
+        </div>
+        <div class="right-item text-center">
+          <h4>Lavorazione legno</h4>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+        </div>
+      </div>
+
+      <div class="servizio p-2 p-xl-3 col-12 col-md-4 d-flex flex-column align-items-center">
+        <div class="mb-4 left-item p-1 d-flex justify-content-center align-items-center">
+          <span class="fs-1 material-symbols-outlined">
+            psychiatry
+          </span>
+        </div>
+        <div class="right-item text-center">
+          <h4>Servizio 3</h4>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- VIDEO -->
+  <div id="video" class="d-flex justify-content-evenly align-items-center p-2">
+    <h3>CREDIAMO CHE OGNI PIANTA POSSA RACCONTARE STORIE MERAVIGLIOSE</h3>
+    <iframe
+      src="
+    https://www.facebook.com/plugins/video.php?height=316&href=https%3A%2F%2Fwww.facebook.com%2Foasiwwfcrateredegliastroni%2Fvideos%2F618298157076813%2F&show_text=false&width=560&t=0"
+      width="560" height="316" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true"
+      allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe>
+  </div>
+
+</div>

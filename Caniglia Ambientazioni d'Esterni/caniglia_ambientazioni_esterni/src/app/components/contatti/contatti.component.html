@@ -1,0 +1,35 @@
+<div class="container">
+  <div class="row">
+    <form
+    action="https://formspree.io/f/xvojljne"
+    method="POST"
+    [formGroup]="form"
+    class="col-10 col-md-6 d-flex flex-column justify-content-evenly p-4"
+>
+
+      <h1 class="text-center mb-3">Contattaci:</h1>
+
+      <label for="nome"><strong>Nome:</strong></label>
+      <span class="text-sm" *ngIf="!form.get('nome')?.valid && form.get('nome')?.touched" class="text-danger font-italic">*Il campo è obbligatorio!</span>
+      <input formControlName="nome" type="text" class="mb-3" placeholder="Inserisci il tuo nome">
+
+
+      <label for="cognome"><strong>Cognome:</strong></label>
+      <span *ngIf="!form.get('cognome')?.valid && form.get('cognome')?.touched" class="text-danger font-italic">*Il campo è obbligatorio!</span>
+      <input formControlName="cognome" type="text" class="mb-3" placeholder="Inserisci il tuo cognome">
+
+      <label for="email"><strong>Email:</strong></label>
+      <span *ngIf="!form.get('email')?.valid && form.get('email')?.touched" class="text-danger font-italic">*Il campo è obbligatorio!</span>
+      <input formControlName="email" type="text" class="mb-3" placeholder="Inserisci la tua e-mail">
+
+      <label for="messaggio"><strong>Messaggio:</strong></label>
+      <span *ngIf="!form.get('messaggio')?.valid && form.get('messaggio')?.touched" class="text-danger font-italic">*Il campo è obbligatorio!</span>
+      <textarea formControlName="messaggio" name="messaggio" id="messaggio" cols="30" rows="5" class="mb-3" placeholder="Scrivi il tuo messaggio"></textarea>
+
+      <div class="d-flex justify-content-end">
+        <button type="submit" class="p-2" (click)="submitForm()">INVIA</button>
+      </div>
+    </form>
+  </div>
+
+</div>
